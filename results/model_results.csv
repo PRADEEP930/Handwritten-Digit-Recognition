@@ -1,0 +1,5 @@
+Model,Accuracy,Parameters
+KNN,0.9675,K=5
+SVM,0.9814166666666667,"C=1.0, RBF kernel"
+Decision Tree,0.8716666666666667,"max_depth=15, min_samples_split=5"
+KNN_Scratch,0.86,K=5 (from scratch)

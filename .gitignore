@@ -1,0 +1,18 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.ipynb_checkpoints/
+.DS_Store
+*.pkl
+*.h5
+*.log
+outputs/
+!outputs/.gitkeep
+archive.zip
+kaggle/
