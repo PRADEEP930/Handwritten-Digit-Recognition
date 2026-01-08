@@ -133,7 +133,7 @@ Handwritten-Digit-Recognition/
 # 📝💀💣 Note!
 - Avoid Bonus Task! it is time consuming and resource intensive
 - even after doing every thing on Google Colab you may reach to the limit of free resource 
-- A way out to this share it with edit permission to another account and try! ✅
+- A way out to this is to share it with edit permission to another account and try! ✅
 ---
 
 
