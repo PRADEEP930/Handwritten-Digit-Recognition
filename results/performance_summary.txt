@@ -1,3 +1,4 @@
+📝 Generating Final Report...
 
 ============================================================
 📊 FINAL MODEL PERFORMANCE SUMMARY
@@ -14,14 +15,27 @@ Decision Tree  0.871667 max_depth=15, min_samples_split=5
 
 1. PERFORMANCE COMPARISON:
    - SVM achieved the highest accuracy, followed closely by KNN
-   - Decision Tree performed slightly worse but was faster to train
+   - Decision Tree performed slightly worse but slightly better than KNN (from scratch)
    - From-scratch KNN showed competitive performance despite implementation simplicity
 
 2. MISCLASSIFICATION PATTERNS:
    - Most confusion occurs between visually similar digits (e.g., 3↔8, 4↔9, 5↔6)
    - Noisy or poorly written digits were most frequently misclassified
    - Edge cases with unusual writing styles caused consistent errors
-...
+
+3. PERFORMANCE FACTORS:
+   - SVM's kernel trick helps capture non-linear patterns in handwritten digits
+   - KNN suffers from curse of dimensionality but benefits from MNIST's clear class separation
+   - Decision Trees tend to overfit without proper regularization
+
+============================================================
+
+✅ All tasks completed successfully!
+📁 Output files generated:
+   - class_distribution.png
+   - sample_digits.png
+   - pca_analysis.png
+   - model_accuracy.png
    - confusion_matrices.png
    - misclassified_*.png
    - pca_impact.png
